@@ -16,9 +16,9 @@
 
         }
 
-        public override string ToString()
+        public Peca peca(int linha, int coluna)
         {
-            return linhas + "," + colunas;
+            return pecas[linha, coluna];
         }
 
     }
